@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media (max-width:575.98px) {
+    #home h1{
+        font-size: 2.5em;
+    }
+
+    #home .btn-custom{
+       margin: 10px 15px;
+    }
+  }
+
+  /*Small devices (landscape phones, 576px e maiores)*/
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    #home h1{
+        font-size: 3em;
+    }
+
+    #home .btn-custom{
+        margin: 10px 15px;
+     }
+    
+
+  }
+
+  /*Medium devices (tablets, 768px e maiores)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    #home h1{
+        font-size: 4em;
+    }
+    
+
+  }
+
+  /*Large devices (desktops, 992px e maiores)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #home h1{
+        font-size: 5em;
+    }
+
+  }
+
+  /*Extra large devices (large desktops, 1200px  e maiores)*/
+  @media (min-width: 1200px) {
+    #home h1{
+        font-size: 6em;
+    }
+  }

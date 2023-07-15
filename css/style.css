@@ -3,11 +3,16 @@
 
 /*----- Layout -----*/
 
+html, body, #home{ /* ocupa toda a tela */
+    height: 100%;
+}
+
 body{
     background: url('../imagens/capa.png'), 
                 url('../imagens/ruido.png'),
                 linear-gradient(50deg, #ff4169, #7c26f8); /* combinando imagens, só tem esse efeito porque elas tem um efeito de transparência */
     background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 /*----- Barra de navegação -----*/
@@ -35,3 +40,49 @@ nav.navbar-transparente{
     background: white;
     margin: 12px 15px;
 }
+
+/*----- Capa -----*/
+
+.capa{
+    text-align: center;
+}
+
+/*----- Tipografia -----*/
+
+#home h1{
+    font-weight: 900;
+    letter-spacing: -0.05em; /* espaçamento entre letras */
+    margin-bottom: 50px;
+    color: white;
+}
+
+#home .btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+#home .btn-roxo{
+    background: #7c25f8;
+
+}
+
+#home .btn-roxo:hover{
+    background: #6207e3;
+    color: white;
+}
+
+#home .btn-branco{
+    border: 2px solid white;
+
+}
+
+#home .btn-branco:hover{
+    background: white;
+    color: black;
+}
+
