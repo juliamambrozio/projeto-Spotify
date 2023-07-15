@@ -9,3 +9,29 @@ body{
                 linear-gradient(50deg, #ff4169, #7c26f8); /* combinando imagens, só tem esse efeito porque elas tem um efeito de transparência */
     background-attachment: fixed;
 }
+
+/*----- Barra de navegação -----*/
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav a.nav-link { /* Deixando mais específico para sobrepor a config do BootStrap */
+    color: rgb(255 255 255);
+}
+
+.navbar-light .navbar-nav a.nav-link:hover { 
+    color: #9bf0e1;
+}
+
+.navbar-light button.navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: #ffffff59;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
