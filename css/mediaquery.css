@@ -7,6 +7,7 @@
 
     #home .btn-custom{
        margin: 10px 15px;
+       font-size: 1em; /* Deixando adequado para telas pequenas */
     }
   }
 
