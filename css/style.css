@@ -142,12 +142,46 @@ nav.navbar-transparente{
 .rotacionar{ 
     padding-left: 80px;
 
-    /* Rotacionar a imagem */
+    /* Rotacionar a imagem (sai do seu lugar e invade outra)*/
     transform: rotate(30deg);
     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     -ms-transform: rotate(30deg); /* IE 9 */ 
    
 }
 
+/*----- Footer -----*/
+
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative; /* Fica sobre a imagem do celular */
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0px 10px;
+}
 
 
