@@ -47,6 +47,32 @@ nav.navbar-transparente{
     text-align: center;
 }
 
+/*----- Estrutura conteúdos -----*/
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px;
+}
+
+#servicos h2{
+    color: #7c25f8;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+
+#servicos h3{
+    font-size: 2em;
+    letter-spacing: -0.04em;
+    color: #7c25f8;
+    font-weight: bold;
+}
+
 /*----- Tipografia -----*/
 
 #home h1{
