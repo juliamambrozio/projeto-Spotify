@@ -5,6 +5,8 @@
 
 html, body, #home{ /* ocupa toda a tela */
     height: 100%;
+    overflow-x: hidden; /* esconde barra horizontal */
+    /* overflow-scroll: aparece independente se precisa da barra ou não */
 }
 
 body{
@@ -47,32 +49,6 @@ nav.navbar-transparente{
     text-align: center;
 }
 
-/*----- Estrutura conteúdos -----*/
-
-#servicos{
-    background: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.albuns{
-    padding: 10px 0px;
-}
-
-#servicos h2{
-    color: #7c25f8;
-    font-weight: 700;
-    font-size: 3em;
-    letter-spacing: -0.04em;
-}
-
-#servicos h3{
-    font-size: 2em;
-    letter-spacing: -0.04em;
-    color: #7c25f8;
-    font-weight: bold;
-}
-
 /*----- Tipografia -----*/
 
 #home h1{
@@ -111,4 +87,67 @@ nav.navbar-transparente{
     background: white;
     color: black;
 }
+
+/*----- Estrutura conteúdos -----*/
+
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px;
+}
+
+#servicos h2{
+    color: #7c25f8;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+
+#servicos h3{
+    font-size: 2em;
+    letter-spacing: -0.04em;
+    color: #7c25f8;
+    font-weight: bold;
+}
+
+/*----- Estrutura Recursos -----*/
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+
+#recursos h3{
+    font-size: 2em;
+    letter-spacing: -0.04em;
+    color: #9bf0e1;
+    font-weight: bold;
+}
+
+#recursos p{
+    color: white;
+}
+
+.rotacionar{ 
+    padding-left: 80px;
+
+    /* Rotacionar a imagem */
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(30deg); /* IE 9 */ 
+   
+}
+
+
 
